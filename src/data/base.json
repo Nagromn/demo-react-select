@@ -1,0 +1,19 @@
+{
+  "base_component": [
+    {
+      "id": 1,
+      "name": "Base - 1 slot",
+      "slot": 1
+    },
+    {
+      "id": 2,
+      "name": "Base - 2 slots",
+      "slot": 2
+    },
+    {
+      "id": 3,
+      "name": "Base - 3 slots",
+      "slot": 3
+    }
+  ]
+}

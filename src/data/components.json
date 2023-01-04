@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "id": 1,
+      "name": "Composant 1",
+      "compatibility": [
+        {
+          "C1": true,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Composant 2",
+      "compatibility": [
+        {
+          "C1": false,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Composant 3",
+      "compatibility": [
+        {
+          "C1": true,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Composant 4",
+      "compatibility": [
+        {
+          "C1": true,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Composant 5",
+      "compatibility": [
+        {
+          "C1": true,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true
+        }
+      ]
+    }
+  ]
+}

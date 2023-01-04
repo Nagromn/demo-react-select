@@ -1,0 +1,13 @@
+.navbar{
+      margin: 2rem 0;
+}
+
+.navbarLink{
+      margin: 0 1rem;
+      padding: 1rem;
+      background-color: lightgray;
+      border-radius: 1rem;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+}

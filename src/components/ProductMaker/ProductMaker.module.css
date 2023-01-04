@@ -1,0 +1,15 @@
+span {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.productMaker {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.productComponent {
+  margin: 0 2rem;
+}
