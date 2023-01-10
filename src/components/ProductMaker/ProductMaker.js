@@ -32,7 +32,9 @@ export default function ProductMaker() {
           selectValue.some((i) => i === option)
         }
         isOptionDisabled={(option) =>
-          option.isDisabled || selectedComponents.length >= selectedOption.slot
+          option.isDisabled ||
+          selectedComponents.length >= selectedOption.slot ||
+          selectedComponents.some((i) => !i.compatibility.compare(option))
         }
         onChange={(e) => handleComponentsChange(e)}
       />

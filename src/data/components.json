@@ -3,67 +3,27 @@
     {
       "id": 1,
       "name": "Composant 1",
-      "compatibility": [
-        {
-          "C1": true,
-          "C2": true,
-          "C3": true,
-          "C4": true,
-          "C5": true
-        }
-      ]
+      "compatibility": [1, 3, 4, 5]
     },
     {
       "id": 2,
       "name": "Composant 2",
-      "compatibility": [
-        {
-          "C1": false,
-          "C2": true,
-          "C3": true,
-          "C4": true,
-          "C5": true
-        }
-      ]
+      "compatibility": [2, 4, 5]
     },
     {
       "id": 3,
       "name": "Composant 3",
-      "compatibility": [
-        {
-          "C1": true,
-          "C2": true,
-          "C3": true,
-          "C4": true,
-          "C5": true
-        }
-      ]
+      "compatibility": [1, 3, 5]
     },
     {
       "id": 4,
       "name": "Composant 4",
-      "compatibility": [
-        {
-          "C1": true,
-          "C2": true,
-          "C3": true,
-          "C4": true,
-          "C5": true
-        }
-      ]
+      "compatibility": [1, 2, 4]
     },
     {
       "id": 5,
       "name": "Composant 5",
-      "compatibility": [
-        {
-          "C1": true,
-          "C2": true,
-          "C3": true,
-          "C4": true,
-          "C5": true
-        }
-      ]
+      "compatibility": [1, 2, 3, 5]
     }
   ]
 }
