@@ -6,7 +6,6 @@ import { nanoid } from "nanoid";
 // Data
 import base from "../../data/base.json";
 import components from "../../data/components.json";
-import { isDisabled } from "@testing-library/user-event/dist/utils";
 
 export default function ProductMaker() {
   const [isSearchable, setIsSearchable] = useState(true);
@@ -106,7 +105,7 @@ export default function ProductMaker() {
             placeholder="Choisissez votre base"
             isSearchable={isSearchable}
             isClearable={isClearable}
-            isDisabled={isDisabled ? selectedBase : null}
+            isDisabled={selectedBase ? true : null}
             onChange={(e) => handleBaseChange(e)}
           />
         </div>
