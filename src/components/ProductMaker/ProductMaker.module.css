@@ -1,15 +1,46 @@
-span {
-  color: red;
-  font-weight: bold;
-  text-decoration: underline;
+h1 {
+  padding: 1rem;
+}
+
+h2 {
+  padding: 1.6rem;
 }
 
 .productMaker {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+  margin: 2rem 1rem;
+}
+
+.iconSvg{
+  width: 1.6rem;
+}
+
+.titleDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.button {
+  margin: 0 0.6rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .productComponent {
   margin: 0 2rem;
+}
+
+.cardContainer {
+  margin: 0 1rem;
 }
